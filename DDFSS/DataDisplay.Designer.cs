@@ -36,6 +36,8 @@
             label3 = new Label();
             Dashboardlabel = new Label();
             dataGridView1 = new DataGridView();
+            textBox1 = new TextBox();
+            SearchLabel = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -99,26 +101,45 @@
             // Dashboardlabel
             // 
             Dashboardlabel.AutoSize = true;
-            Dashboardlabel.Location = new Point(26, 9);
+            Dashboardlabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Dashboardlabel.Location = new Point(12, 9);
             Dashboardlabel.Name = "Dashboardlabel";
-            Dashboardlabel.Size = new Size(77, 15);
+            Dashboardlabel.Size = new Size(130, 25);
             Dashboardlabel.TabIndex = 7;
             Dashboardlabel.Text = "DASHBOARD";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 200);
+            dataGridView1.Location = new Point(160, 293);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(336, 150);
+            dataGridView1.Size = new Size(336, 113);
             dataGridView1.TabIndex = 8;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(236, 234);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(168, 23);
+            textBox1.TabIndex = 9;
+            // 
+            // SearchLabel
+            // 
+            SearchLabel.AutoSize = true;
+            SearchLabel.Location = new Point(185, 237);
+            SearchLabel.Name = "SearchLabel";
+            SearchLabel.Size = new Size(45, 15);
+            SearchLabel.TabIndex = 10;
+            SearchLabel.Text = "Search:";
             // 
             // DataDisplay
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGray;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1045, 656);
+            Controls.Add(SearchLabel);
+            Controls.Add(textBox1);
             Controls.Add(dataGridView1);
             Controls.Add(Dashboardlabel);
             Controls.Add(panel3);
@@ -147,5 +168,7 @@
         private Label label3;
         private Label Dashboardlabel;
         private DataGridView dataGridView1;
+        private TextBox textBox1;
+        private Label SearchLabel;
     }
 }
