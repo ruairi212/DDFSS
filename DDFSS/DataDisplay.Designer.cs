@@ -104,14 +104,13 @@
             Dashboardlabel.Size = new Size(77, 15);
             Dashboardlabel.TabIndex = 7;
             Dashboardlabel.Text = "DASHBOARD";
-            Dashboardlabel.Click += this.label4_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(237, 288);
+            dataGridView1.Location = new Point(12, 200);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(295, 150);
+            dataGridView1.Size = new Size(336, 150);
             dataGridView1.TabIndex = 8;
             // 
             // DataDisplay
