@@ -38,7 +38,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(97, 43);
+            textBox1.Location = new Point(97, 54);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(155, 23);
             textBox1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(97, 89);
+            textBox2.Location = new Point(97, 120);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(155, 23);
             textBox2.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(26, 46);
+            label1.Location = new Point(26, 57);
             label1.Name = "label1";
             label1.Size = new Size(72, 15);
             label1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(33, 92);
+            label2.Location = new Point(33, 123);
             label2.Name = "label2";
             label2.Size = new Size(65, 15);
             label2.TabIndex = 3;
@@ -78,9 +78,9 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(textBox2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(379, 116);
+            groupBox1.Location = new Point(379, 82);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(302, 232);
+            groupBox1.Size = new Size(302, 286);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
