@@ -82,7 +82,7 @@
             // 
             panel1.BackColor = SystemColors.Control;
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(12, 52);
+            panel1.Location = new Point(22, 52);
             panel1.Name = "panel1";
             panel1.Size = new Size(234, 37);
             panel1.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             panel3.BackColor = SystemColors.Control;
             panel3.Controls.Add(label3);
-            panel3.Location = new Point(515, 52);
+            panel3.Location = new Point(502, 52);
             panel3.Name = "panel3";
             panel3.Size = new Size(234, 37);
             panel3.TabIndex = 6;
@@ -127,10 +127,11 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 314);
+            dataGridView1.Location = new Point(2, 287);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(336, 113);
             dataGridView1.TabIndex = 8;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // textBox1
             // 
@@ -243,7 +244,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(816, 236);
+            label9.Location = new Point(812, 248);
             label9.Name = "label9";
             label9.Size = new Size(205, 25);
             label9.TabIndex = 17;
