@@ -1,4 +1,8 @@
-﻿namespace DDFSS
+﻿
+using StockData;
+
+
+namespace DDFSS
 {
     partial class DataDisplay
     {
@@ -139,6 +143,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(168, 23);
             textBox1.TabIndex = 9;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // SearchLabel
             // 
@@ -271,6 +276,7 @@
             Controls.Add(panel1);
             Name = "DataDisplay";
             Text = "DataDisplay";
+            Load += DataDisplay_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);

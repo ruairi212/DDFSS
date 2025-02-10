@@ -16,5 +16,19 @@ namespace DDFSS
         {
 
         }
+
+        private void DataDisplay_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void initialiseDataGridView()
+        {
+            dataGridView1.Rows.Clear();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

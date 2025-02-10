@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DDFSS
 {
-    internal class StockData
+    public class StockData
     {
         public double AdjustedClose { get; set; }
         public string Date {  get; set; }
