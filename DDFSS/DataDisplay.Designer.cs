@@ -1,7 +1,4 @@
 ﻿
-using StockData;
-
-
 namespace DDFSS
 {
     partial class DataDisplay
